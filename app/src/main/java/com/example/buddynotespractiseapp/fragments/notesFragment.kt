@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.buddynotespractiseapp.R
 import com.example.buddynotespractiseapp.databinding.FragmentNotesBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class notesFragment : Fragment() {
 
     var _binding : FragmentNotesBinding? = null

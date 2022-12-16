@@ -74,10 +74,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version")
 
     // These 3 below are the dependenices for the navigation navhost - Jetpack navhost
-    def nav_version = "2.5.3"
-    implementation("androidx.navigation:navigation-compose:$nav_version")
-    implementation "androidx.navigation:navigation-fragment:$nav_version"
-    implementation "androidx.navigation:navigation-ui:$nav_version"
+    def nav_version = "2.4.2"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 }
 
 // Allow references to generated code
